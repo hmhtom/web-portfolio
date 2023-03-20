@@ -25,6 +25,7 @@ function ContentContainer() {
       <Nav />
       <Row className="justify-content-center bg-dark user-select-none">
         {renderPage()}
+        <h6></h6>
       </Row>
     </>
   );

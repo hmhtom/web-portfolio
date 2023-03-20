@@ -13,7 +13,7 @@ function Navigation() {
   const dispatch = useDispatch();
 
   return (
-    <Navbar bg="dark" variant="dark" className="user-select-none">
+    <Navbar bg="dark" variant="dark" className="user-select-none" sticky="top">
       <Container>
         <Nav className="me-auto">
           {tabs.map((tab) => (
