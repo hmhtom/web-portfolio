@@ -4,7 +4,6 @@ import Row from "react-bootstrap/Row";
 
 import About from "./contents/About";
 import Projects from "./contents/Projects";
-import Contact from "./contents/Contact";
 import Nav from "./Nav";
 
 function ContentContainer() {
@@ -16,8 +15,6 @@ function ContentContainer() {
         return <About />;
       case "Projects":
         return <Projects />;
-      case "Contact":
-        return <Contact />;
       default:
         return <About />;
     }

@@ -2,7 +2,7 @@ import React from "react";
 import Container from "react-bootstrap/Container";
 import Nav from "react-bootstrap/Nav";
 import Navbar from "react-bootstrap/Navbar";
-import { Linkedin } from "react-bootstrap-icons";
+import { Linkedin, Envelope } from "react-bootstrap-icons";
 
 import { useSelector } from "react-redux";
 import { useDispatch } from "react-redux";
@@ -33,6 +33,9 @@ function Navigation() {
           target="_blank"
           className="ms-3">
           <Linkedin color="royalblue" size={30} />
+        </a>
+        <a href="mailto:hmhtom@gmail.com" target="_blank" className="ms-3">
+          <Envelope color="royalblue" size={30} />
         </a>
       </Container>
     </Navbar>

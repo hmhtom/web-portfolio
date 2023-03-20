@@ -130,7 +130,7 @@ a {
   transform: scale(3) translateY(40%);
 }
 
-@keyframes slidingIn {
+@keyframes slidingInLeft {
   0% {
     transform: translateX(-100%);
   }
@@ -143,8 +143,22 @@ a {
   }
 }
 
+@keyframes opIn {
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
+
+.about {
+  animation: 2s ease-in-out 0s 1 opIn;
+}
+
 .avatar {
-  animation: 2s ease-in-out 0s 1 slidingIn;
+  animation: 2s ease-in-out 0s 1 slidingInLeft;
 }
 
 @media (prefers-color-scheme: dark) {

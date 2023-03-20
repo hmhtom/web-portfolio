@@ -4,7 +4,7 @@ const personalInfoSlice = createSlice({
   name: "personalInfo",
   initialState: {
     currentTab: "About",
-    tabs: ["About", "Projects", "Contact"],
+    tabs: ["About", "Projects"],
     projects: [
       {
         type: [
