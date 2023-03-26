@@ -7,6 +7,11 @@ const personalInfoSlice = createSlice({
     tabs: ["About", "Projects"],
     projects: [
       {
+        type: ["spring"],
+        github: "https://github.com/hmhtom/ecom-microservices-api-demo",
+        imgURL: "ecom-microservices-api-demo",
+      },
+      {
         type: [
           "react",
           "redux",
