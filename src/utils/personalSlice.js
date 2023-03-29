@@ -7,6 +7,11 @@ const personalInfoSlice = createSlice({
     tabs: ["About", "Projects"],
     projects: [
       {
+        type: ["spring", "mongodb"],
+        github: "https://github.com/hmhtom/file-storage-service",
+        imgURL: "ecom-microservices-api-demo",
+      },
+      {
         type: ["nextjs", "bootstrap", "aws", "react", "redux"],
         github: "https://github.com/hmhtom/cloud-dropbox",
         imgURL: "dropbox-demo",
