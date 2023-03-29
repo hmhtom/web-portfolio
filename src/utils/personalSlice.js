@@ -9,7 +9,7 @@ const personalInfoSlice = createSlice({
       {
         type: ["spring", "mongodb"],
         github: "https://github.com/hmhtom/file-storage-service",
-        imgURL: "ecom-microservices-api-demo",
+        imgURL: "file-storage-service",
       },
       {
         type: ["nextjs", "bootstrap", "aws", "react", "redux"],
@@ -17,7 +17,7 @@ const personalInfoSlice = createSlice({
         imgURL: "dropbox-demo",
       },
       {
-        type: ["spring"],
+        type: ["spring", "mongodb", "mysql"],
         github: "https://github.com/hmhtom/ecom-microservices-api-demo",
         imgURL: "ecom-microservices-api-demo",
       },
